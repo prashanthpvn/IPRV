@@ -497,7 +497,7 @@ def main():
 	update_ledger_genesis(tx_obj,value=1)
 	genesis_tx_ids.append(tx_obj.tx_id)
 
-	with open('/home/sivsai/Documents/prashanth/fsd2l/path_dataset.csv', 'r') as f:
+	with open('/home/sivsai/Documents/prashanth/fsd2l/sample_path_dataset.csv', 'r') as f:
 		reader = csv.reader(f, dialect='excel', delimiter=',')
 		for row in reader:
 			#print ('row-data',row)
