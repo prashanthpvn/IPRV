@@ -2,7 +2,6 @@ import networkx as nx
 import numpy as np
 import requests
 import itertools
-#from bitstring import BitArray
 from random import *
 import random
 from operator import itemgetter
