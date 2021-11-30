@@ -25,18 +25,6 @@ G = nx.barabasi_albert_graph(n,m)
 # random.seed(seed_value)
 # np.random.seed(seed_value)
 
-#G = nx.random_internet_as_graph(n)
-
-#G = nx.Graph()
-# G.add_edge(1, 2, delay=3)
-# G.add_edge(1, 3, delay=6)
-# G.add_edge(1, 4, delay=9)
-# G.add_edge(2, 4, delay=5)
-# G.add_edge(3, 4, delay=1)
-# G.add_edge(2, 3, delay=2)
-
-
-#G.add_edges_from(edge_list)
 
 for (u, v) in G.edges():
         #G.edge[u][v]['bw'] = np.random.randint(initial_bw, initial_bw+1)
