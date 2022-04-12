@@ -9,4 +9,4 @@ bgp-data-with-path.py generates synthetic bgp data, python3 bgp-data-with-path.p
 
 time-as-dataset.py provides the finality time for the AS-topology obtained using CAIDA dataset.
 
-iprv-mem-test.py generates the memory consumed by PFX2AS and FSD2L ledger. The file uses prefix to AS dataset obtained by processing CAIDA routeviews dataset
+iprv-mem.py generates the memory consumed by PFX2AS and FSD2L ledger. The file uses prefix to AS dataset obtained by processing CAIDA routeviews dataset
